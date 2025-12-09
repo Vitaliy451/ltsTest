@@ -28,7 +28,7 @@
       "entityType" : "DEVICE",
       "id" : "85489820-d507-11f0-b588-dd2b64bd140c"
     },
-    "label" : "",
+    "label" : "hook",
     "name" : "hook",
     "ownerId" : null,
     "softwareId" : null,
