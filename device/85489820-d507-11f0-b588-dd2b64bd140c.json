@@ -2,7 +2,7 @@
   "entityType" : "DEVICE",
   "entity" : {
     "additionalInfo" : {
-      "gateway" : false,
+      "gateway" : true,
       "overwriteActivityTime" : false,
       "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis eleifend hendrerit justo, eu varius velit suscipit vulputate. Maecenas mattis, massa ac viverra hendrerit, velit augue facilisis ex, sit amet posuere velit enim in ligula. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam quis arcu eu orci iaculis dignissim nec eu dui."
     },
@@ -51,8 +51,64 @@
       "lastUpdateTs" : 1765288873630,
       "longValue" : null,
       "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "fw_id",
+      "lastUpdateTs" : 1765288992134,
+      "longValue" : null,
+      "strValue" : "b4ce2190-cf95-11f0-9bd8-495b9db00b5d"
     } ],
-    "SHARED_SCOPE" : [ ]
+    "SHARED_SCOPE" : [ {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "fw_checksum",
+      "lastUpdateTs" : 1765288992134,
+      "longValue" : null,
+      "strValue" : "f458bbeabc639c028bce35b154afaaeaf6ecac179a408f2772e1fe7f9061ce72"
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "fw_checksum_algorithm",
+      "lastUpdateTs" : 1765288992134,
+      "longValue" : null,
+      "strValue" : "SHA256"
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "fw_size",
+      "lastUpdateTs" : 1765288992134,
+      "longValue" : 13536,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "fw_tag",
+      "lastUpdateTs" : 1765288992134,
+      "longValue" : null,
+      "strValue" : "OTA package firmware v1.2"
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "fw_title",
+      "lastUpdateTs" : 1765288992134,
+      "longValue" : null,
+      "strValue" : "OTA package firmware"
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "fw_version",
+      "lastUpdateTs" : 1765288992134,
+      "longValue" : null,
+      "strValue" : "v1.2"
+    } ]
   },
   "calculatedFields" : [ ]
 }
