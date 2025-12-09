@@ -4,7 +4,7 @@
     "additionalInfo" : {
       "gateway" : false,
       "overwriteActivityTime" : false,
-      "description" : ""
+      "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis eleifend hendrerit justo, eu varius velit suscipit vulputate. Maecenas mattis, massa ac viverra hendrerit, velit augue facilisis ex, sit amet posuere velit enim in ligula. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam quis arcu eu orci iaculis dignissim nec eu dui."
     },
     "customerId" : {
       "entityType" : "CUSTOMER",
@@ -23,7 +23,10 @@
       "id" : "d5a20540-cf94-11f0-9bd8-495b9db00b5d"
     },
     "externalId" : null,
-    "firmwareId" : null,
+    "firmwareId" : {
+      "entityType" : "OTA_PACKAGE",
+      "id" : "b4ce2190-cf95-11f0-9bd8-495b9db00b5d"
+    },
     "id" : {
       "entityType" : "DEVICE",
       "id" : "85489820-d507-11f0-b588-dd2b64bd140c"
