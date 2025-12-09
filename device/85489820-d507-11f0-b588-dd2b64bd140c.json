@@ -22,7 +22,10 @@
       "entityType" : "DEVICE_PROFILE",
       "id" : "d5a20540-cf94-11f0-9bd8-495b9db00b5d"
     },
-    "externalId" : null,
+    "externalId" : {
+      "entityType" : "DEVICE",
+      "id" : "85489820-d507-11f0-b588-dd2b64bd140c"
+    },
     "firmwareId" : {
       "entityType" : "OTA_PACKAGE",
       "id" : "b4ce2190-cf95-11f0-9bd8-495b9db00b5d"
@@ -32,7 +35,7 @@
       "id" : "85489820-d507-11f0-b588-dd2b64bd140c"
     },
     "label" : "hook",
-    "name" : "hook",
+    "name" : "hook3",
     "ownerId" : null,
     "softwareId" : null,
     "type" : "OTA profile firmware"
@@ -44,11 +47,11 @@
   },
   "attributes" : {
     "SERVER_SCOPE" : [ {
-      "booleanValue" : false,
+      "booleanValue" : true,
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "active",
-      "lastUpdateTs" : 1765288873630,
+      "lastUpdateTs" : 1765289883157,
       "longValue" : null,
       "strValue" : null
     }, {
@@ -56,16 +59,48 @@
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "fw_id",
-      "lastUpdateTs" : 1765288992134,
+      "lastUpdateTs" : 1765289135478,
       "longValue" : null,
       "strValue" : "b4ce2190-cf95-11f0-9bd8-495b9db00b5d"
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "inactivityAlarmTime",
+      "lastUpdateTs" : 1765289770918,
+      "longValue" : 1765289770918,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "lastActivityTime",
+      "lastUpdateTs" : 1765289883157,
+      "longValue" : 1765289880477,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "test",
+      "lastUpdateTs" : 1765289226502,
+      "longValue" : 123,
+      "strValue" : null
     } ],
     "SHARED_SCOPE" : [ {
       "booleanValue" : null,
       "doubleValue" : null,
       "jsonValue" : null,
+      "key" : "TEST_HELLO",
+      "lastUpdateTs" : 1765289394477,
+      "longValue" : null,
+      "strValue" : "hello"
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
       "key" : "fw_checksum",
-      "lastUpdateTs" : 1765288992134,
+      "lastUpdateTs" : 1765289135478,
       "longValue" : null,
       "strValue" : "f458bbeabc639c028bce35b154afaaeaf6ecac179a408f2772e1fe7f9061ce72"
     }, {
@@ -73,7 +108,7 @@
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "fw_checksum_algorithm",
-      "lastUpdateTs" : 1765288992134,
+      "lastUpdateTs" : 1765289135478,
       "longValue" : null,
       "strValue" : "SHA256"
     }, {
@@ -81,7 +116,7 @@
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "fw_size",
-      "lastUpdateTs" : 1765288992134,
+      "lastUpdateTs" : 1765289135478,
       "longValue" : 13536,
       "strValue" : null
     }, {
@@ -89,7 +124,7 @@
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "fw_tag",
-      "lastUpdateTs" : 1765288992134,
+      "lastUpdateTs" : 1765289135478,
       "longValue" : null,
       "strValue" : "OTA package firmware v1.2"
     }, {
@@ -97,7 +132,7 @@
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "fw_title",
-      "lastUpdateTs" : 1765288992134,
+      "lastUpdateTs" : 1765289135478,
       "longValue" : null,
       "strValue" : "OTA package firmware"
     }, {
@@ -105,10 +140,41 @@
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "fw_version",
-      "lastUpdateTs" : 1765288992134,
+      "lastUpdateTs" : 1765289135478,
       "longValue" : null,
       "strValue" : "v1.2"
     } ]
   },
-  "calculatedFields" : [ ]
+  "calculatedFields" : [ {
+    "configuration" : {
+      "type" : "SIMPLE",
+      "arguments" : {
+        "test" : {
+          "defaultValue" : "",
+          "refEntityKey" : {
+            "key" : "temperature",
+            "type" : "TS_LATEST"
+          }
+        }
+      },
+      "expression" : "temperature/2",
+      "output" : {
+        "name" : "test",
+        "type" : "TIME_SERIES"
+      },
+      "useLatestTs" : false
+    },
+    "configurationVersion" : 0,
+    "debugSettings" : {
+      "allEnabled" : false,
+      "allEnabledUntil" : 1765291761201,
+      "failuresEnabled" : true
+    },
+    "name" : "test",
+    "tenantId" : {
+      "entityType" : "TENANT",
+      "id" : "e4e49ac0-caaf-11f0-81a9-57f92a2cf20d"
+    },
+    "type" : "SIMPLE"
+  } ]
 }
