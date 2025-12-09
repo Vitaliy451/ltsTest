@@ -20,7 +20,7 @@
     },
     "deviceProfileId" : {
       "entityType" : "DEVICE_PROFILE",
-      "id" : "e5856ea0-caaf-11f0-81a9-57f92a2cf20d"
+      "id" : "d5a20540-cf94-11f0-9bd8-495b9db00b5d"
     },
     "externalId" : null,
     "firmwareId" : null,
@@ -32,7 +32,7 @@
     "name" : "hook",
     "ownerId" : null,
     "softwareId" : null,
-    "type" : "default"
+    "type" : "OTA profile firmware"
   },
   "credentials" : {
     "credentialsId" : "kwOOUAUPe6KO0Kt9nxHU",
