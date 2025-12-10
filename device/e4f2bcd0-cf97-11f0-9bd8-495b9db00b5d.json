@@ -4,7 +4,7 @@
     "additionalInfo" : {
       "gateway" : false,
       "overwriteActivityTime" : false,
-      "description" : ""
+      "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis eleifend hendrerit justo, eu varius velit suscipit vulputate. Maecenas mattis, massa ac viverra hendrerit, velit augue facilisis ex, sit amet posuere velit enim in ligula. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam quis arcu eu orci iaculis dignissim nec eu dui. Aenean congue quam sed orci bibendum, ac rhoncus ex auctor. Nullam a posuere dui. Pellentesque vitae urna nunc."
     },
     "customerId" : {
       "entityType" : "CUSTOMER",
@@ -22,7 +22,10 @@
       "entityType" : "DEVICE_PROFILE",
       "id" : "d5a20540-cf94-11f0-9bd8-495b9db00b5d"
     },
-    "externalId" : null,
+    "externalId" : {
+      "entityType" : "DEVICE",
+      "id" : "e4f2bcd0-cf97-11f0-9bd8-495b9db00b5d"
+    },
     "firmwareId" : null,
     "id" : {
       "entityType" : "DEVICE",
@@ -39,14 +42,13 @@
     "credentialsType" : "ACCESS_TOKEN",
     "credentialsValue" : null
   },
-  "relations" : [ ],
   "attributes" : {
     "SERVER_SCOPE" : [ {
       "booleanValue" : false,
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "active",
-      "lastUpdateTs" : 1764691833615,
+      "lastUpdateTs" : 1765360326681,
       "longValue" : null,
       "strValue" : null
     }, {
