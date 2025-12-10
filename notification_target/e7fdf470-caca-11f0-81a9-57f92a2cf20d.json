@@ -1,0 +1,19 @@
+{
+  "entityType" : "NOTIFICATION_TARGET",
+  "entity" : {
+    "configuration" : {
+      "type" : "PLATFORM_USERS",
+      "description" : null,
+      "usersFilter" : {
+        "type" : "USER_GROUP_LIST",
+        "groupsIds" : [ "e5754200-caaf-11f0-81a9-57f92a2cf20d" ]
+      }
+    },
+    "externalId" : null,
+    "id" : {
+      "entityType" : "NOTIFICATION_TARGET",
+      "id" : "e7fdf470-caca-11f0-81a9-57f92a2cf20d"
+    },
+    "name" : "guk"
+  }
+}

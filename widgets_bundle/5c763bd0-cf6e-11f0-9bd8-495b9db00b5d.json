@@ -1,0 +1,22 @@
+{
+  "entityType" : "WIDGETS_BUNDLE",
+  "entity" : {
+    "alias" : "new_folder",
+    "description" : "Test description to test the widget bundle.",
+    "externalId" : null,
+    "id" : {
+      "entityType" : "WIDGETS_BUNDLE",
+      "id" : "5c763bd0-cf6e-11f0-9bd8-495b9db00b5d"
+    },
+    "image" : "tb-image;/api/images/tenant/images.png",
+    "name" : "New folder",
+    "order" : null,
+    "scada" : false,
+    "title" : "New folder"
+  },
+  "fqns" : [ "alarm_test", "al_test", "cw_test", "lv_test", "st_test", "ts_test" ],
+  "relations" : [ ],
+  "attributes" : {
+    "SERVER_SCOPE" : [ ]
+  }
+}

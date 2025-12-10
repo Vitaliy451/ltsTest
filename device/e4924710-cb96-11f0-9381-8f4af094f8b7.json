@@ -1,0 +1,105 @@
+{
+  "entityType" : "DEVICE",
+  "entity" : {
+    "additionalInfo" : null,
+    "customerId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "13814000-1dd2-11b2-8080-808080808080"
+    },
+    "deviceData" : {
+      "configuration" : {
+        "type" : "DEFAULT"
+      },
+      "transportConfiguration" : {
+        "type" : "DEFAULT"
+      }
+    },
+    "deviceProfileId" : {
+      "entityType" : "DEVICE_PROFILE",
+      "id" : "e43cad00-cb96-11f0-9381-8f4af094f8b7"
+    },
+    "externalId" : null,
+    "firmwareId" : null,
+    "id" : {
+      "entityType" : "DEVICE",
+      "id" : "e4924710-cb96-11f0-9381-8f4af094f8b7"
+    },
+    "label" : null,
+    "name" : "Energy meter",
+    "ownerId" : null,
+    "softwareId" : null,
+    "type" : "energy-meter"
+  },
+  "credentials" : {
+    "credentialsId" : "w6dzpdibp3G3Y78F4iLZ",
+    "credentialsType" : "ACCESS_TOKEN",
+    "credentialsValue" : null
+  },
+  "relations" : [ {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "ASSET",
+      "id" : "e447a980-cb96-11f0-9381-8f4af094f8b7"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "e4924710-cb96-11f0-9381-8f4af094f8b7"
+    },
+    "type" : "Contains",
+    "typeGroup" : "COMMON",
+    "version" : 8720
+  } ],
+  "attributes" : {
+    "SERVER_SCOPE" : [ {
+      "booleanValue" : false,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "active",
+      "lastUpdateTs" : 1764253096711,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "inactivityAlarmTime",
+      "lastUpdateTs" : 1764253096707,
+      "longValue" : 1764253096707,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "lastActivityTime",
+      "lastUpdateTs" : 1764252464641,
+      "longValue" : 1764252462620,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "type",
+      "lastUpdateTs" : 1764250938918,
+      "longValue" : null,
+      "strValue" : "energy-meter"
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : 0.2,
+      "jsonValue" : null,
+      "key" : "xPos",
+      "lastUpdateTs" : 1764250938918,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : 0.4,
+      "jsonValue" : null,
+      "key" : "yPos",
+      "lastUpdateTs" : 1764250938918,
+      "longValue" : null,
+      "strValue" : null
+    } ],
+    "SHARED_SCOPE" : [ ]
+  },
+  "calculatedFields" : [ ]
+}

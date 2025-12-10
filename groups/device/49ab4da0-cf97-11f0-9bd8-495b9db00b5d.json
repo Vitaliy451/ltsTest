@@ -1,0 +1,61 @@
+{
+  "entityType" : "ENTITY_GROUP",
+  "entity" : {
+    "additionalInfo" : {
+      "description" : ""
+    },
+    "configuration" : {
+      "columns" : [ {
+        "type" : "ENTITY_FIELD",
+        "key" : "created_time",
+        "sortOrder" : "DESC"
+      }, {
+        "type" : "ENTITY_FIELD",
+        "key" : "name",
+        "sortOrder" : "NONE"
+      }, {
+        "type" : "ENTITY_FIELD",
+        "key" : "device_profile",
+        "sortOrder" : "NONE"
+      }, {
+        "type" : "ENTITY_FIELD",
+        "key" : "label",
+        "sortOrder" : "NONE"
+      } ],
+      "settings" : { },
+      "actions" : { }
+    },
+    "edgeGroupAll" : false,
+    "externalId" : null,
+    "groupAll" : false,
+    "id" : {
+      "entityType" : "ENTITY_GROUP",
+      "id" : "49ab4da0-cf97-11f0-9bd8-495b9db00b5d"
+    },
+    "name" : "ota firm",
+    "ownerId" : {
+      "entityType" : "TENANT",
+      "id" : "e4e49ac0-caaf-11f0-81a9-57f92a2cf20d"
+    },
+    "type" : "DEVICE"
+  },
+  "relations" : [ ],
+  "attributes" : {
+    "SERVER_SCOPE" : [ ]
+  },
+  "calculatedFields" : [ ],
+  "groupEntities" : true,
+  "groupOtaPackages" : [ {
+    "groupId" : {
+      "entityType" : "ENTITY_GROUP",
+      "id" : "49ab4da0-cf97-11f0-9bd8-495b9db00b5d"
+    },
+    "id" : "a9c1bbb0-cf98-11f0-9bd8-495b9db00b5d",
+    "otaPackageId" : {
+      "entityType" : "OTA_PACKAGE",
+      "id" : "b4ce2190-cf95-11f0-9bd8-495b9db00b5d"
+    },
+    "otaPackageType" : "FIRMWARE",
+    "otaPackageUpdateTime" : 1764691503843
+  } ]
+}

@@ -1,0 +1,19 @@
+{
+  "entityType" : "NOTIFICATION_TARGET",
+  "entity" : {
+    "configuration" : {
+      "type" : "PLATFORM_USERS",
+      "description" : null,
+      "usersFilter" : {
+        "type" : "CUSTOMER_USERS",
+        "customerId" : "c25cd7a0-cad3-11f0-81a9-57f92a2cf20d"
+      }
+    },
+    "externalId" : null,
+    "id" : {
+      "entityType" : "NOTIFICATION_TARGET",
+      "id" : "3ff11d60-cad0-11f0-81a9-57f92a2cf20d"
+    },
+    "name" : "hlk"
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "entityType" : "SCHEDULER_EVENT",
+  "entity" : {
+    "additionalInfo" : null,
+    "configuration" : {
+      "msgBody" : {
+        "reportConfig" : {
+          "baseUrl" : "https://qa-tb-pe-lts.iot-private.cloud",
+          "useDashboardTimewindow" : true,
+          "timewindow" : {
+            "selectedTab" : 1,
+            "history" : {
+              "historyType" : 0,
+              "interval" : 1000,
+              "timewindowMs" : 86400000
+            }
+          },
+          "type" : "pdf",
+          "timezone" : "Europe/Kiev",
+          "dashboardId" : "a769c640-cb98-11f0-9381-8f4af094f8b7",
+          "state" : "",
+          "namePattern" : "report-%d{yyyy-MM-dd_HH:mm:ss}",
+          "useCurrentUserCredentials" : true,
+          "userId" : "e5ce3770-caaf-11f0-81a9-57f92a2cf20d"
+        },
+        "sendEmail" : false
+      }
+    },
+    "customerId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "13814000-1dd2-11b2-8080-808080808080"
+    },
+    "enabled" : false,
+    "externalId" : null,
+    "id" : {
+      "entityType" : "SCHEDULER_EVENT",
+      "id" : "fe852fc0-d122-11f0-9ed2-05e8fc28e3e8"
+    },
+    "name" : "Test",
+    "originatorId" : null,
+    "ownerId" : null,
+    "schedule" : {
+      "timezone" : "Europe/Kiev",
+      "startTime" : 1764865920000,
+      "repeat" : {
+        "type" : "TIMER",
+        "endsOn" : 1765317600000,
+        "repeatInterval" : 1,
+        "timeUnit" : "MINUTES"
+      }
+    },
+    "type" : "generateDashboardReport"
+  }
+}

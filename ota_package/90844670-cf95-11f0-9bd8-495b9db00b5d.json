@@ -1,0 +1,30 @@
+{
+  "entityType" : "OTA_PACKAGE",
+  "entity" : {
+    "additionalInfo" : {
+      "description" : ""
+    },
+    "checksum" : "75bd49bdfd47d943d724d93a5015842684294920be01d402df2da2e2313fe7ee",
+    "checksumAlgorithm" : "SHA256",
+    "contentType" : "text/javascript",
+    "data" : "ZXhwb3J0IGNvbnN0IGNpcmNsZSA9ICcmIzExMDQ0Oyc7",
+    "dataSize" : 33,
+    "deviceProfileId" : {
+      "entityType" : "DEVICE_PROFILE",
+      "id" : "c1038c30-cf94-11f0-9bd8-495b9db00b5d"
+    },
+    "externalId" : null,
+    "fileName" : "new_script (1).js",
+    "hasData" : true,
+    "id" : {
+      "entityType" : "OTA_PACKAGE",
+      "id" : "90844670-cf95-11f0-9bd8-495b9db00b5d"
+    },
+    "name" : "OTA package software",
+    "tag" : "OTA package software v1.1",
+    "title" : "OTA package software",
+    "type" : "SOFTWARE",
+    "url" : null,
+    "version" : "v1.1"
+  }
+}

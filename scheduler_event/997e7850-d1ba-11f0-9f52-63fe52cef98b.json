@@ -1,0 +1,62 @@
+{
+  "entityType" : "SCHEDULER_EVENT",
+  "entity" : {
+    "additionalInfo" : null,
+    "configuration" : {
+      "msgBody" : {
+        "reportConfig" : {
+          "baseUrl" : "https://qa-tb-pe-lts.iot-private.cloud",
+          "useDashboardTimewindow" : true,
+          "timewindow" : {
+            "selectedTab" : 1,
+            "history" : {
+              "historyType" : 0,
+              "interval" : 1000,
+              "timewindowMs" : 86400000
+            }
+          },
+          "type" : "pdf",
+          "timezone" : "Europe/Kiev",
+          "dashboardId" : "d601b570-cf68-11f0-9bd8-495b9db00b5d",
+          "state" : "",
+          "namePattern" : "report-%d{yyyy-MM-dd_HH:mm:ss}",
+          "useCurrentUserCredentials" : true,
+          "userId" : "e5ce3770-caaf-11f0-81a9-57f92a2cf20d"
+        },
+        "sendEmail" : true,
+        "emailConfig" : {
+          "from" : "vradchuk@thingsboard.io",
+          "to" : "vradchuk@thingsboard.io",
+          "subject" : "Report generated on %d{yyyy-MM-dd HH:mm:ss}",
+          "body" : "Report was successfully generated on %d{yyyy-MM-dd HH:mm:ss}.\nSee attached report file.",
+          "cc" : null,
+          "bcc" : null
+        }
+      }
+    },
+    "customerId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "13814000-1dd2-11b2-8080-808080808080"
+    },
+    "enabled" : false,
+    "externalId" : null,
+    "id" : {
+      "entityType" : "SCHEDULER_EVENT",
+      "id" : "997e7850-d1ba-11f0-9f52-63fe52cef98b"
+    },
+    "name" : "new test",
+    "originatorId" : null,
+    "ownerId" : null,
+    "schedule" : {
+      "timezone" : "Europe/Kiev",
+      "startTime" : 1764925800000,
+      "repeat" : {
+        "type" : "TIMER",
+        "endsOn" : 1765058400000,
+        "repeatInterval" : 2,
+        "timeUnit" : "MINUTES"
+      }
+    },
+    "type" : "generateDashboardReport"
+  }
+}

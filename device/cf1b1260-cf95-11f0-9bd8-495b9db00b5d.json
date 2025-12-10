@@ -1,0 +1,120 @@
+{
+  "entityType" : "DEVICE",
+  "entity" : {
+    "additionalInfo" : {
+      "gateway" : false,
+      "overwriteActivityTime" : false,
+      "description" : ""
+    },
+    "customerId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "13814000-1dd2-11b2-8080-808080808080"
+    },
+    "deviceData" : {
+      "configuration" : {
+        "type" : "DEFAULT"
+      },
+      "transportConfiguration" : {
+        "type" : "DEFAULT"
+      }
+    },
+    "deviceProfileId" : {
+      "entityType" : "DEVICE_PROFILE",
+      "id" : "c1038c30-cf94-11f0-9bd8-495b9db00b5d"
+    },
+    "externalId" : null,
+    "firmwareId" : null,
+    "id" : {
+      "entityType" : "DEVICE",
+      "id" : "cf1b1260-cf95-11f0-9bd8-495b9db00b5d"
+    },
+    "label" : "",
+    "name" : "otas",
+    "ownerId" : null,
+    "softwareId" : null,
+    "type" : "OTA profile software"
+  },
+  "credentials" : {
+    "credentialsId" : "b1lxrixHfOkBdPyGCBSK",
+    "credentialsType" : "ACCESS_TOKEN",
+    "credentialsValue" : null
+  },
+  "relations" : [ ],
+  "attributes" : {
+    "SERVER_SCOPE" : [ {
+      "booleanValue" : false,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "active",
+      "lastUpdateTs" : 1764690933609,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "inactivityAlarmTime",
+      "lastUpdateTs" : 1764690933606,
+      "longValue" : 1764690933606,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "sw_id",
+      "lastUpdateTs" : 1764691306061,
+      "longValue" : null,
+      "strValue" : "90844670-cf95-11f0-9bd8-495b9db00b5d"
+    } ],
+    "SHARED_SCOPE" : [ {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "sw_checksum",
+      "lastUpdateTs" : 1764691306061,
+      "longValue" : null,
+      "strValue" : "75bd49bdfd47d943d724d93a5015842684294920be01d402df2da2e2313fe7ee"
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "sw_checksum_algorithm",
+      "lastUpdateTs" : 1764691306061,
+      "longValue" : null,
+      "strValue" : "SHA256"
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "sw_size",
+      "lastUpdateTs" : 1764691306061,
+      "longValue" : 33,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "sw_tag",
+      "lastUpdateTs" : 1764691306061,
+      "longValue" : null,
+      "strValue" : "OTA package software v1.1"
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "sw_title",
+      "lastUpdateTs" : 1764691306061,
+      "longValue" : null,
+      "strValue" : "OTA package software"
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "sw_version",
+      "lastUpdateTs" : 1764691306061,
+      "longValue" : null,
+      "strValue" : "v1.1"
+    } ]
+  },
+  "calculatedFields" : [ ]
+}

@@ -1,0 +1,19 @@
+{
+  "entityType" : "NOTIFICATION_TARGET",
+  "entity" : {
+    "configuration" : {
+      "type" : "PLATFORM_USERS",
+      "description" : null,
+      "usersFilter" : {
+        "type" : "USER_LIST",
+        "usersIds" : [ "e5ce3770-caaf-11f0-81a9-57f92a2cf20d" ]
+      }
+    },
+    "externalId" : null,
+    "id" : {
+      "entityType" : "NOTIFICATION_TARGET",
+      "id" : "b69f7a40-d1c6-11f0-9f52-63fe52cef98b"
+    },
+    "name" : "v"
+  }
+}

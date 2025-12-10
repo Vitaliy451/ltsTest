@@ -45,13 +45,14 @@
     "credentialsType" : "ACCESS_TOKEN",
     "credentialsValue" : null
   },
+  "relations" : [ ],
   "attributes" : {
     "SERVER_SCOPE" : [ {
-      "booleanValue" : true,
+      "booleanValue" : false,
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "active",
-      "lastUpdateTs" : 1765289883157,
+      "lastUpdateTs" : 1765290490929,
       "longValue" : null,
       "strValue" : null
     }, {
@@ -67,8 +68,8 @@
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "inactivityAlarmTime",
-      "lastUpdateTs" : 1765289770918,
-      "longValue" : 1765289770918,
+      "lastUpdateTs" : 1765290490924,
+      "longValue" : 1765290490924,
       "strValue" : null
     }, {
       "booleanValue" : null,

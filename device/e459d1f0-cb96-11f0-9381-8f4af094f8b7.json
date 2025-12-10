@@ -1,0 +1,97 @@
+{
+  "entityType" : "DEVICE",
+  "entity" : {
+    "additionalInfo" : null,
+    "customerId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "13814000-1dd2-11b2-8080-808080808080"
+    },
+    "deviceData" : {
+      "configuration" : {
+        "type" : "DEFAULT"
+      },
+      "transportConfiguration" : {
+        "type" : "DEFAULT"
+      }
+    },
+    "deviceProfileId" : {
+      "entityType" : "DEVICE_PROFILE",
+      "id" : "e43273d0-cb96-11f0-9381-8f4af094f8b7"
+    },
+    "externalId" : null,
+    "firmwareId" : null,
+    "id" : {
+      "entityType" : "DEVICE",
+      "id" : "e459d1f0-cb96-11f0-9381-8f4af094f8b7"
+    },
+    "label" : null,
+    "name" : "Smart sensor",
+    "ownerId" : null,
+    "softwareId" : null,
+    "type" : "smart-sensor"
+  },
+  "credentials" : {
+    "credentialsId" : "AGPJFg7wSjOsPu7t6zg7",
+    "credentialsType" : "ACCESS_TOKEN",
+    "credentialsValue" : null
+  },
+  "relations" : [ {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "ASSET",
+      "id" : "e447a980-cb96-11f0-9381-8f4af094f8b7"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "e459d1f0-cb96-11f0-9381-8f4af094f8b7"
+    },
+    "type" : "Contains",
+    "typeGroup" : "COMMON",
+    "version" : 8718
+  } ],
+  "attributes" : {
+    "SERVER_SCOPE" : [ {
+      "booleanValue" : false,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "active",
+      "lastUpdateTs" : 1764251596701,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "inactivityAlarmTime",
+      "lastUpdateTs" : 1764251596695,
+      "longValue" : 1764251596694,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "type",
+      "lastUpdateTs" : 1764250938687,
+      "longValue" : null,
+      "strValue" : "smart-sensor"
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : 0.55,
+      "jsonValue" : null,
+      "key" : "xPos",
+      "lastUpdateTs" : 1764250938687,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : 0.4,
+      "jsonValue" : null,
+      "key" : "yPos",
+      "lastUpdateTs" : 1764250938687,
+      "longValue" : null,
+      "strValue" : null
+    } ],
+    "SHARED_SCOPE" : [ ]
+  },
+  "calculatedFields" : [ ]
+}
