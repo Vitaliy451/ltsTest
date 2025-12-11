@@ -483,7 +483,10 @@
     "resources" : null,
     "assignedCustomers" : null,
     "customerId" : null,
-    "externalId" : null,
+    "externalId" : {
+      "entityType" : "DASHBOARD",
+      "id" : "a769c640-cb98-11f0-9381-8f4af094f8b7"
+    },
     "id" : {
       "entityType" : "DASHBOARD",
       "id" : "a769c640-cb98-11f0-9381-8f4af094f8b7"

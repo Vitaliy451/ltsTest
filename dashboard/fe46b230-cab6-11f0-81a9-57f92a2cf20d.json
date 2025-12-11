@@ -597,7 +597,10 @@
     "resources" : null,
     "assignedCustomers" : null,
     "customerId" : null,
-    "externalId" : null,
+    "externalId" : {
+      "entityType" : "DASHBOARD",
+      "id" : "fe46b230-cab6-11f0-81a9-57f92a2cf20d"
+    },
     "id" : {
       "entityType" : "DASHBOARD",
       "id" : "fe46b230-cab6-11f0-81a9-57f92a2cf20d"
